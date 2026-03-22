@@ -5,10 +5,10 @@
 ## What to download
 >[!TIP]
 >- You can either download
->   - [NetCalc.py](<a href="https://raw.githubusercontent.com/SPPL23/NetworkTopologyCalculator/refs/heads/main/NetCalc.py" download="NetCalc.py">) 
+>   - [NetCalc.py](https://raw.githubusercontent.com/SPPL23/NetworkTopologyCalculator/refs/heads/main/NetCalc.py) 
 >
 >       **OR**
->   - [NetCalc.exe](<a href="https://github.com/SPPL23/NetworkTopologyCalculator/raw/refs/heads/main/dist/NetCalc.exe">) which is in the <u>***dist***</u> folder
+>   - [NetCalc.exe](https://github.com/SPPL23/NetworkTopologyCalculator/raw/refs/heads/main/dist/NetCalc.exe) which is in the <u>***dist***</u> folder
 
 >[!IMPORTANT]
 >## <center>**Don't download the API, I was just testing something.**</center>

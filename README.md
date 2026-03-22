@@ -7,28 +7,28 @@
 >- You can either download **`NetCalc.py`** or **`NetCalc.exe`** which is in the <u>dist</u> folder
 
 >[!IMPORTANT]
->#### <center>**Don't download the API, I was just testing something.**</center>
+>## <center>**Don't download the API, I was just testing something.**</center>
 ### Features
 1. *Nothing much*, there's a **menu**. You enter the values of *1, 2,* and *3* that's all.
 2. **1st option** prompts you to **enter the assigned address** by individually typing the four octets and then asks for the prefix assigned to that address.
 <strong>Example: </strong>
->```
->Enter the assigned network address for each octet x.x.x.x
->1st octet: 192
->2nd octet: 168a
->3rd octet: 100
->4th octet: 69
->
->Enter the prefix length (e.g: 24): 26
->
-> *Prints out all of the necessary/calculated results*
->```
+```
+Enter the assigned network address for each octet x.x.x.x
+1st octet: 192
+2nd octet: 168a
+3rd octet: 100
+4th octet: 69
+
+Enter the prefix length (e.g: 24): 26
+
+ *Prints out all of the necessary/calculated results*
+```
 3. **2nd option** prompts you to **enter only the prefix**
 <strong>Example: </strong>
->```
->Enter the prefix length (e.g: 8 - 32): 25
->Subnet Mask: 255.255.255.128
->```
+```
+Enter the prefix length (e.g: 8 - 32): 25
+Subnet Mask: 255.255.255.128
+```
 4. **3rd** is **literally just an exit** even though you can just press CTRL and C
 ### Limitations
 > [!IMPORTANT]

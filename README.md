@@ -34,6 +34,6 @@
 > [!IMPORTANT]
 >- So far, for the **2nd option**. I made sure that **you can only enter the prefix of *8* up until *32***. *If you enter any value less than 8 or greater than 32. It will just tell you you can't enter any value from what was indicated.*
 
-> [!ALERT]
+> [!WARNING]
 >- For the **1st option**, *I* **forgot to limit the maximum character length or I guess integer length** *that you can enter for the first four user input. So far you can enter more than 3 digits for each octet and can* **go beyond 255**.
 >- ***I'm too lazy to fix that shit now, it is what it is.***

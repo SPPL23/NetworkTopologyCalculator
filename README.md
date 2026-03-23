@@ -5,7 +5,7 @@
 ## What to download
 >[!TIP]
 >### NEW
-> - ### You can now download the folder NetCalc_Installation folder and run the NetCalcSetUp.exe
+> - ### Added a new automated set up for NetCalc.exe under the NetCalc_Installation folder. Just make sure to run the NetCalcSetUp.exe
 >   - ~~You can either download~~
 >   - ~~**[NetCalc.py](https://raw.githubusercontent.com/SPPL23/NetworkTopologyCalculator/refs/heads/main/NetCalc.py)** <u>***Right-click***</u> and then <u>***Save as***</u>~~
 >

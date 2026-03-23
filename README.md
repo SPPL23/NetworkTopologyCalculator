@@ -57,5 +57,5 @@ Subnet Mask: 255.255.255.128
 >5. Click new, paste the current path directory of where the NetCalc.exe file is located.
 >![Step5](https://i.imgur.com/wF011Zo.png)
 >![Step5(2)](https://i.imgur.com/vB72aWz.png)
-![Sample](https://s3.ezgif.com/tmp/ezgif-301739e2fdeecc4a.gif)
+![Sample](NetCalcDemo.gif)
 ></strong>

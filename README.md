@@ -1,5 +1,12 @@
 # NetCalc
 ## Network Topology Calculator
+### UPDATE 03/25/2026
+>[!WARNING]
+>Used modules restricted_input(r_input) to restrict user input's character limit to 3.
+> - The user is now unable to input more than 3 characters/numbers.
+>   - However I did forget to set a condition where the user is unable to enter the values of less than 0 and greater than 255, ~this damn brain of mine~.
+> - Added the module pyperclip which will now prompt the user to copy to clipboard of the results you have inputted on option 1 of the menu.
+
 >[!NOTE]
 >- The reason why I made this simple python CLI program is so that instead of doing the calculations manually like pulling up the *calculator, listing down the necessary details like Subnetmask, Wildcard Mask, Network Address, Broadcast Address, Host Range, First and Last Usable, blablabla* is so that I can **just look at the terminal and read everything there** without going back and fort with notepad. Also because I suck at calculating and *kept failing my tests with the wrong IP assignment.*
 ## What to download
@@ -40,7 +47,7 @@ Subnet Mask: 255.255.255.128
 > [!IMPORTANT]
 >- So far, for the **2nd option**. I made sure that **you can only enter the prefix of *8* up until *32***. *If you enter any value less than 8 or greater than 32. It will just tell you you can't enter any value from what was indicated.*
 
-> [!WARNING]
+> [!CAUTION]
 >- For the **1st option**, *I* **forgot to limit the maximum character length or I guess integer length** *that you can enter for the first four user input. So far you can enter more than 3 digits for each octet and can* **go beyond 255**.
 >- ***I'm too lazy to fix that shit now, it is what it is.***
 

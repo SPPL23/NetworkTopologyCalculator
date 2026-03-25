@@ -1,9 +1,8 @@
 # NetCalc
 ## Network Topology Calculator
-### UPDATE 03/25/2026
 >[!NOTE]
 >- The reason why I made this simple python CLI program is so that instead of doing the calculations manually like pulling up the *calculator, listing down the necessary details like Subnetmask, Wildcard Mask, Network Address, Broadcast Address, Host Range, First and Last Usable, blablabla* is so that I can **just look at the terminal and read everything there** without going back and fort with notepad. Also because I suck at calculating and *kept failing my tests with the wrong IP assignment.*
-
+### UPDATE 03/25/2026
 >[!WARNING]
 >Used modules restricted_input(r_input) to restrict user input's character limit to 3.
 > - The user is now unable to input more than 3 characters/numbers.

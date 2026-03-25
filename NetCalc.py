@@ -7,10 +7,30 @@ class NetworkTopologyCalculator:
     def networkaddress(self, NA, Prefix):
 
         print('\nEnter the assigned network address for each octet x.x.x.x')
-        o1 = int(r_input('1st octet: ', maxlength=3))
-        o2 = int(r_input('2nd octet: ', maxlength=3))
-        o3 = int(r_input('3rd octet: ', maxlength=3))
-        o4 = int(r_input('4th octet: ', maxlength=3))
+        while True:
+            o1 = int(r_input('1st octet: ', maxlength=3))
+            if o1 not in range(0, 256):
+                print('Invalid octet value. Please enter a value between 0 and 255.')
+                continue
+            break
+        while True:
+            o2 = int(r_input('2nd octet: ', maxlength=3))
+            if o2 not in range(0, 256):
+                print('Invalid octet value. Please enter a value between 0 and 255.')
+                continue
+            break
+        while True:
+            o3 = int(r_input('3rd octet: ', maxlength=3))
+            if o3 not in range(0, 256):
+                print('Invalid octet value. Please enter a value between 0 and 255.')
+                continue
+            break
+        while True:
+            o4 = int(r_input('4th octet: ', maxlength=3))
+            if o4 not in range(0, 256):
+                print('Invalid octet value. Please enter a value between 0 and 255.')
+                continue
+            break
         NA = [o1, o2, o3, o4]
         NA_int = map(str, NA)
         NA_str = '.'.join(NA_int)
@@ -100,10 +120,8 @@ class SubnetMaskCalculator:
 
 class CTCB:
     def copytocb(self, NA, prefix, submask, wildcard, newNA, broadcast, first_usable, last_usable, num_hosts, usable_hosts):
-        
         sub_str = '.'.join(map(str, submask))
         wild_str = '.'.join(map(str, wildcard))
-
         first_str = '.'.join(map(str, first_usable))
         last_str = '.'.join(map(str, last_usable))
 

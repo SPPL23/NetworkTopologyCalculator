@@ -5,18 +5,11 @@
 ### UPDATE 03/25/2026
 >[!WARNING]
 >Used modules restricted_input(r_input) to restrict user input's character limit to 3.
-> - The user is now unable to input more than 3 characters/numbers.
->   - However I did forget to set a condition where the user is unable to enter the values of less than 0 and greater than 255, ~this damn brain of mine~.
+> - The user is now unable to input more than 3 characters/numbers and can only enter the numbers 0 to 255.
 > - Added the module pyperclip which will now prompt the user to copy to clipboard of the results you have inputted on option 1 of the menu.
 ## What to download
 >[!TIP]
->### NEW
-> - ### Added a new automated set up for NetCalc.exe under the NetCalc_Installation folder. Just make sure to run the NetCalcSetUp.exe
->   - ~~You can either download~~
->   - ~~**[NetCalc.py](https://raw.githubusercontent.com/SPPL23/NetworkTopologyCalculator/refs/heads/main/NetCalc.py)** <u>***Right-click***</u> and then <u>***Save as***</u>~~
->
->       ~~*or*~~
->   - ~~**[NetCalc.exe](https://github.com/SPPL23/NetworkTopologyCalculator/raw/refs/heads/main/dist/NetCalc.exe)** which is in the <u>***dist***</u> folder~~
+> - ### Automated set up for NetCalc.exe under the NetCalc_Installation folder. Just make sure to run the NetCalcSetUp.exe
 
 >[!IMPORTANT]
 >## <center>**Don't download the API, I was just testing something.**</center>
@@ -27,7 +20,7 @@
 ```
 Enter the assigned network address for each octet x.x.x.x
 1st octet: 192
-2nd octet: 168a
+2nd octet: 168
 3rd octet: 100
 4th octet: 69
 
@@ -44,24 +37,15 @@ Subnet Mask: 255.255.255.128
 4. **3rd** is **literally just an exit** even though you can just press CTRL and C
 ### Limitations
 > [!IMPORTANT]
->- So far, for the **2nd option**. I made sure that **you can only enter the prefix of *8* up until *32***. *If you enter any value less than 8 or greater than 32. It will just tell you you can't enter any value from what was indicated.*
+>- There is no windowed application, for now I am only capable of implementing python CLI programs.
+>- So far, the **1st option**. You can only enter the values 0 up until 255 and can only enter 3 digits. You are also literally unable to put 4 or greater digits, I made sure you don't reset to the 1st octet if you enter less than 0 or greater than 255.
+>- For the **2nd option**. I made sure that **you can only enter the prefix of *8* up until *32***. *If you enter any value less than 8 or greater than 32. It will just tell you you can't enter any value from what was indicated.*
 
 > [!CAUTION]
->- For the **1st option**, *I* **forgot to limit the maximum character length or I guess integer length** *that you can enter for the first four user input. So far you can enter more than 3 digits for each octet and can* **go beyond 255**.
->- ***I'm too lazy to fix that shit now, it is what it is.***
+>- ***This week 03/24/2026, I am motivated to make a program and publish it on github***
+>- ### Next week, I'm probably going to be indefinitely lazy as shit and not even touch VSCode.
 
 # If you want it as a quick access CLI tool in command prompt
 >[!TIP]
-><strong>
->1. Make sure to save the NetCalc.exe file to a specific path/folder
->2. Go to the start menu and search environment variables
->![Step2](https://i.imgur.com/8VJWYov.png)
->3. Click `Environment Variables`
->![Step3](https://i.imgur.com/xPtf0Fa.png)
->4. On the Users tab, double click path
->![Step4](https://i.imgur.com/fUH1MDz.png)
->5. Click new, paste the current path directory of where the NetCalc.exe file is located.
->![Step5](https://i.imgur.com/wF011Zo.png)
->![Step5(2)](https://i.imgur.com/vB72aWz.png)
+># Sample / Demonstration
 ![Sample](NetCalcDemo.gif)
-></strong>

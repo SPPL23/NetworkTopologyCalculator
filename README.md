@@ -45,7 +45,6 @@ Subnet Mask: 255.255.255.128
 >- ***This week 03/24/2026, I am motivated to make a program and publish it on github***
 >- ### Next week, I'm probably going to be indefinitely lazy as shit and not even touch VSCode.
 
-# If you want it as a quick access CLI tool in command prompt
 >[!TIP]
 ># Sample / Demonstration
 ![Sample](NetCalcDemo.gif)
